@@ -14,7 +14,8 @@ public class Base {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/Chromedriver/chromedriver");
 		
 		driver = new ChromeDriver();
-		driver.get("https://www.amazon.com/");
+		driver.get("http://chegg-qa-challenge.herokuapp.com/login");
+	//	driver.get("https://www.amazon.com/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		return driver;
