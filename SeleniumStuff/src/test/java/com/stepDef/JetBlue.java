@@ -39,7 +39,7 @@ Thread.sleep(200);
 	do {
 	driver.findElement(By.xpath("//li[@class='f6 mt3 mt0-ns bb pb3 flex justify-between items-center']//jb-icon[@name='incrementerUp']//*[local-name()='svg']")).click();
 	x++;	} 
-	while (x <= 3);
+	while (x <= 4);
 	
 	
 //	for (int y = 1; y <= 2; y++) {
