@@ -31,8 +31,9 @@ Thread.sleep(200);
 
 	
 	//see this comment change
+	//now see this in git
 	int x = 1;
-	while ( x <= 3) {
+	while ( x <= 4) {
 	driver.findElement(By.xpath("//li[@class='f6 mt3 mt0-ns bb pb3 flex justify-between items-center']//jb-icon[@name='incrementerUp']//*[local-name()='svg']")).click();
 	x++; }
 	
