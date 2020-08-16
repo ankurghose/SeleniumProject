@@ -5,8 +5,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = "Features", 
 		glue = "com.stepDef",
-		tags = "@DataTable"
-		
+		tags = "@JetBlue"
+	
 		
 		
 		

@@ -2,7 +2,7 @@
 @JetBlue
 Feature: JetBlue
 
-  @tag1
+  
   Scenario: JetBlue
     Given I am on JetBlue
     And try to book a flight

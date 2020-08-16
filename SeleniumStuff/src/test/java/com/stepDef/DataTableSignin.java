@@ -19,6 +19,7 @@ public class DataTableSignin extends Base{
 	@Given("^I am on http://automationpractice\\.com/index\\.php$")
 	public void i_am_on_http_automationpractice_com_index_php() throws Throwable {
 		getdriver();
+		//driver.get("https://www.jetblue.com/");
 	    
 	}
 
