@@ -13,8 +13,10 @@ public class Base {
 		
 		System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver 83");
 		driver = new ChromeDriver();
-		driver.get("https://www.jetblue.com/");
-		
+		//driver.get("http://automationpractice.com/index.php");
+		//driver.get("https://www.jetblue.com/");
+		driver.get("https://my.rcn.com/login");
+
 		return driver;
 		
 }
