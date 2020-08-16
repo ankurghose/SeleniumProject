@@ -36,8 +36,8 @@ public class DataTableSignin extends Base{
 	@When("^I enter username and password$")
 	public void i_enter_username_and_password(DataTable creds) throws Throwable {
 		List <Map <String,String>> data= creds.asMaps(String.class,String.class);
-		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(data.get(0).get("username"));
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(data.get(0).get("password"));
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(data.get(1).get("username"));
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(data.get(1).get("password"));
 	
 	}
 
